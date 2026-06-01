@@ -21,7 +21,7 @@ function mostrarImagen() {
     switch (opcion) {
 
         case "carro":
-            imagen.src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdG4QwHRVm1vQO_2nglpBbE3FIabEFcDimdA&s";
+            imagen.src ="https://www.univision.com/_next/image?url=https%3A%2F%2Fst1.uvnimg.com%2Fd4%2F4a%2F006304a74db4902c0b4d8d8026c8%2Fchevrolet-corvette-c8-stingray-2020-1280-08.jpg&w=1280&q=75";
             break;
 
         case "moto":
