@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto JavaScript</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+ 
+    <h2>Proyecto JavaScript</h2>
+    
+
+    <section>
+        <h3>1. Mostrar Color Seleccionado</h3>
+
+        <label for="cmbColor">Seleccione:</label>
+
+        <select id="cmbColor">
+            <option value="yellow">Amarillo</option>
+            <option value="blue">Azul</option>
+            <option value="red">Rojo</option>
+        </select>
+
+        <button onclick="mostrarColor()">Mostrar</button>
+
+        <div id="divColor"></div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h3>2. Mostrar Imagen Seleccionada</h3>
+
+        <label for="cmbVehiculo">Seleccione:</label>
+
+        <select id="cmbVehiculo">
+            <option value="carro">Carro</option>
+            <option value="moto">Moto</option>
+            <option value="bicicleta">Bicicleta</option>
+        </select>
+
+        <button onclick="mostrarImagen()">Mostrar</button>
+
+        <br><br>
+
+        <img id="imgVehiculo" src="">
+    </section>
+
+    <script src="eventos.js"></script>
+
+    
+</body>
+</html>

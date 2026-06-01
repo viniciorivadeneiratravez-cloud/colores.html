@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#divColor {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+#imgVehiculo {
+    width: 300px;
+    height: auto;
+}
+
+button{
+    display: block;
+    margin-top: 10px;
+}
+#divColor{
+    border: 1px solid black;
+}
+h2{
+    text-align: center;
+}
